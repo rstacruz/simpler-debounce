@@ -3,7 +3,7 @@
 An implementation of [debounce](https://www.npmjs.com/package/debounce) with significantly less code.
 
 ```js
-var debounce = require('debounce')
+var debounce = require('simpler-debounce')
 window.onresize = debounce(resize, 200)
  
 function resize (e) {
