@@ -1,0 +1,14 @@
+{
+  "name": "simpler-debounce",
+  "version": "1.0.0",
+  "description": "Creates and returns a new debounced version of the passed function that will postpone its execution until after wait milliseconds have elapsed since the last time it was invoked",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "4.4.0"
+  }
+}
